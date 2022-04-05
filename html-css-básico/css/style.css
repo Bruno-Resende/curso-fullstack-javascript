@@ -1,0 +1,111 @@
+body {
+    background: rgb(240, 240, 240);
+    /* background-image: url (Caminho da imagem / nome da imagem);
+    backgroud-repeat: no-repeat; Para não repetir a imagem ao longo da página
+    background-position: 20% 50; primeiro valor em relação à esqueda / segundo valor em relação ao topo
+    background-position: right center; Também posso colocar a palavra onde eu quero que a minha imagem fique tanto horizontal, quanto vertical.
+    background-size: cover; Faz com que a imagem fique na tela inteira
+    background-attachment: fixed; Deixa o fundo fixo, ele não se move conforme rola a página
+    */
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.container{
+    width: 870px;
+    margin: 0 auto; /* Umas das formas de centralizar alguns itens, onde 0 se aplica no top e bottom e auto na direita e esquerda */
+}
+
+.profile{
+    text-align: center;
+}
+
+.foto-principal{
+    border: 2px solid #ffffff; /*O código comentado abaixo é o mesmo desta linha, essa forma resumida se chama: Shothand*/
+    /*
+        border-width: 2px;
+        border-style: dotted; 
+        border-color: #FFFFFF;
+    */
+    border-radius: 50%; /* É possível colocar 4 valores, alterando os 4 cantos da imagem começando pelo canto superior esquerdo*/
+    width: 300px;
+    margin: 30px 30px 0 30px; /* Pode colocar até 4 valores começando pelo topo / É um espaçamento EXTERNO */
+    /* padding: 10px; Pode colocar até 4 valores começando pelo topo / É um espaçamento INTERNO */
+    box-shadow: 5px 5px 20px black; /* 1° distância da sombra na horizontal; 2° distância da sombra na vertical; 3° desfoque da sombra; 4° cor da sombra. */
+}
+
+.social-icons{
+    width: 25px;
+}
+
+.social-links{
+    text-decoration: none; /* Essa regra serve apensa para remover underline dos links*/
+}
+
+.instagram{
+    margin: 0 15px;
+}
+
+.marginup{
+    margin-top: 5px;
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 10px;
+    letter-spacing: -1px; /*  Espaçamento entre cada letra */
+    font-family: 'Marmelad', sans-serif;
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 200; /*  Configura a grossura da letra */
+    letter-spacing: -1px; /*  Espaçamento entre cada letra */
+}
+
+.h3style{
+    margin-bottom: 1px;
+    font-size: 27px;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h5{
+    margin-top: 3px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+p{
+    margin-top: 0;
+}
+
+.jobs-list{
+    list-style: none;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+
+.margindown{
+    margin-bottom: 10px;
+}
+
+.pmargin {
+    margin-top: 6px;
+}
+
+.ulmargin{
+    margin-top: 6px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
